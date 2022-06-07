@@ -1,0 +1,55 @@
+{
+  "_up42_specification_version": 2,
+  "name": "sentinelsat-sentinel-1-grd-safe",
+  "type": "data",
+  "tags": [
+    "Sentinel 1",
+    "GRD",
+    "visual",
+    "SAFE",
+    "Sentinel",
+    "C-band", "SAR",
+    "Copernicus",
+    "global",
+    "high resolution",
+    "environment"
+    ],
+  "display_name": "Sentinel-1 GRD (SAFE) with SentinelSat API",
+  "description": "Sentinel-1 GRD (SAFE) provides full scenes of Sentinel-1 (A/B)'s C-band synthetic aperture radar sensor in processing level L-1C Ground Range Detected (GRD) in SAFE folder structure.",
+  "parameters": {
+    "ids": {"type": "array", "default": null},
+    "provider": {"type": "string", "default": "SENTINELSAT", "required": true},
+    "bbox": {"type": "array", "default": null},
+    "contains": {"type": "geometry", "default": null},
+    "flightDirection": {"type": "string", "default": "ASCENDING"},
+    "polarization": {"type": "string", "default": "VV+VH"},
+    "orbitnumber": {"type": "string", "default": null},
+    "time": {"type": "dateRange", "default": "2014-07-01T00:00:00+00:00/2021-12-31T23:59:59+00:00"},
+    "limit": {"type": "integer", "minimum": 1, "default": 1}
+  },
+  "machine": {
+    "type": "large"
+  },
+  "optional_features": {
+    "quicklook_supported": false,
+    "dry_run_supported": true
+  },
+  "input_capabilities": {
+  },
+  "output_capabilities": {
+    "raster": {
+      "up42_standard": {
+        "format": "SAFE",
+        "sensor": "Sentinel1GRD",
+        "dtype": "uint16",
+        "resolution": 10,
+        "bands": {
+          "or" : [
+            ["HH", "HV", "alpha"], ["VV", "VH", "alpha"], ["HH", "alpha"], ["VV", "alpha"]
+          ]
+        },
+        "processing_level": "l1"
+      }
+    }
+  }
+}

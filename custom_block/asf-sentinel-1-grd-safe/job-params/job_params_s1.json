@@ -1,0 +1,20 @@
+{
+	"asf-sentinel-1-grd-safe:1": {
+		"ids": null,
+		"bbox": [
+		  -70.949525,
+		  -33.869312,
+		  -70.880106,
+		  -33.822142
+		],
+		"time": "2014-07-01T00:00:00+00:00/2021-12-31T23:59:59+00:00",
+		"limit": 20,
+		"beamMode": "IW",
+		"provider": "ASF",
+		"polarization": [
+		  "VV"
+		],
+		"relativeOrbit": null,
+		"flightDirection": "ASCENDING"
+	}
+  }

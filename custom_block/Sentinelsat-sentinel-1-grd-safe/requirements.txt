@@ -1,0 +1,8 @@
+up42-blockutils
+sentinelsat
+pandas
+DateTime
+simplejson
+geojson
+shapely
+pathlib

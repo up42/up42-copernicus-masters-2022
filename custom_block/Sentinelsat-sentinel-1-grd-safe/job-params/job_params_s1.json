@@ -1,0 +1,18 @@
+{
+	"sentinelsat-sentinel-1-grd-safe:1": {
+	  "ids": null,
+	  "time": "2014-07-01T00:00:00+00:00/2021-12-31T23:59:59+00:00",
+	  "limit": 1,
+	  "beamMode": "IW",
+	  "provider": "ASF",
+	  "polarization": "VV",
+	  "orbitnumber": null,
+	  "flightDirection": "ASCENDING",
+	  "bbox": [
+		13.353515,
+		52.48375,
+		13.401574,
+		52.508942
+	  ]
+	}
+  }
