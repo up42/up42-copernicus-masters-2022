@@ -40,13 +40,10 @@ For more information, please carefully review the list of links below:
 
 As an example, we have created 3 Custom Blocks. The examples created correspond to 2 [Data Blocks](https://github.com/up42/up42-copernicus-masters-2022/tree/master/custom_block) to obtain Sentinel-1 images using the [Alaska Satellite Facility (ASF)](https://docs.asf.alaska.edu/api/basics/) and [SentinelSat](https://sentinelsat.readthedocs.io/en/stable/) APIs, and 1 [Processing Block](https://github.com/up42/simple-vegetation-indexes-block) to calculate vegetation indexes for Pléiades, SPOT 6/7 and Sentinel-2.
 
-| **⚠ Disclaimer: The custom blocks created are not official UP42 blocks. They were created for the purpose of providing an example but are not being supported by UP42 for any reason. |
-| --- |
-
-### Project ideas:
-- The increasing number of structures that have an impact on non-renewable resources (water, vegetation, land).
-- The uneven distribution of green sites.
-- Wasted spaces to be repurposed as green or residential areas.
+### Please keep in mind
 
 We encourage you to consider other use cases that better leverage the most diverse data available on
 the UP42 platform.
+
+ **⚠ Disclaimer: The custom blocks created are not official UP42 blocks. They were created for the purpose of providing an example but are not being supported by UP42 for any reason. |
+| --- |
