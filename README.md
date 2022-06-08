@@ -19,9 +19,8 @@ We start with a simple question: Are there many cars parked in this area? By bei
 
 [Click here to see the example.](https://github.com/up42/up42-copernicus-masters-2022/blob/master/challenge/CopMa-2022-UP42-Car-Detection.ipynb)
 ## Custom Block
-If you want to use your own data sources or algorithms on the UP42 platform, you can create custom blocks that can be seamlessly added to your workflows as data or processing blocks. These blocks will appear in the console tab Custom blocks.
+Within our platform, it is possible to develop your own solutions, either for data provisioning (if you are a data provider) or data processing (if you are developing an algorithm). These solutions are pushed to our platform as custom blocks. A block is a workflow unit that acts as an operator for data retrieval (data blocks) or processing algorithms (processing blocks).
 
-In simpler words, a custom block is your own data/processing code within the blocks available on the platform.
 Your creation can be written in the coding language of your choice, but it is always essential to check the [developers documentation](https://docs.up42.com/developers) in order to make the creation of your block go smoothly.
 
 For more information, please carefully review the list of links below:
