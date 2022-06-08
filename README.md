@@ -8,6 +8,8 @@ The UP42 Airbus Sustainable Urban Planning Challenge aims to develop algorithms 
 ### Here
 Within this repository, we will explore the capabilities of the [UP42 Platform](https://docs.up42.com/), specifically the use of [Python SKD](https://sdk.up42.com/), with which we will obtain the satellite imagery necessary for the analysis that we will show here as an example.
 
+We also include information for those who wish to create a [custom block](https://docs.up42.com/help/faq#what-is-a-custom-block).
+
 ## Our example project
 Many of those who make decisions need easy-to-understand data so that they can act on what happens. 
 In our case, our example study focuses on inputting information to those who plan about urban areas, who can be Urban Planners, Architects, Engineers and all those who make decisions.
