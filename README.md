@@ -15,12 +15,12 @@ In the following example, we have focused on the old town of [Saint-Malo, France
 
 We start with a simple question: Are there many cars parked in this area? By being able to answer this question, presenting information over a period of time (time-series), we are able to deliver data to the decision makers and be able to address the problem with other solutions.
 
-[Click here to see the example.](https://github.com/up42/copma-2022/blob/master/challenge/CopMa-2022-UP42-Car-Detection.ipynb)
+[Click here to see the example.](https://github.com/up42/up42-copernicus-masters-2022/blob/master/challenge/CopMa-2022-UP42-Car-Detection.ipynb)
 ### Custom Block
 If you want to use your own data sources or algorithms on the UP42 platform, you can create custom blocks that can be seamlessly added to your workflows as data or processing blocks. These blocks will appear in the console tab Custom blocks.
 
-In simpler words, a custom block is your own processing code within the blocks available on the platform.
-Your creation can be written in the coding language of your choice, but it is always essential to check the documentation in order to make the creation of your block go smoothly.
+In simpler words, a custom block is your own data/processing code within the blocks available on the platform.
+Your creation can be written in the coding language of your choice, but it is always essential to check the [developers documentation](https://docs.up42.com/developers) in order to make the creation of your block go smoothly.
 
 For more information, please carefully review the list of links below:
 
@@ -38,7 +38,7 @@ For more information, please carefully review the list of links below:
 |         [Your First Custom Block](https://docs.up42.com/processing-platform/custom-blocks/first-custom-block)          |                      How to upload your first custom block.                       |
 | [Developing a Custom Processing Block](https://docs.up42.com/processing-platform/custom-blocks/first-processing-block) |        Walking you through developing your first custom processing block.         |
 
-As an example, we have created 3 Custom Blocks. The examples created correspond to 2 [Data Blocks](https://github.com/up42/copma-2022/blob/master/custom_block/) to obtain Sentinel-1 images using the [Alaska Satellite Facility (ASF)](https://docs.asf.alaska.edu/api/basics/) and [SentinelSat](https://sentinelsat.readthedocs.io/en/stable/) APIs, and 1 [Processing Block](https://github.com/up42/simple-vegetation-indexes-block) to calculate vegetation indexes for Pléiades, SPOT 6/7 and Sentinel-2.
+As an example, we have created 3 Custom Blocks. The examples created correspond to 2 [Data Blocks](https://github.com/up42/up42-copernicus-masters-2022/tree/master/custom_block) to obtain Sentinel-1 images using the [Alaska Satellite Facility (ASF)](https://docs.asf.alaska.edu/api/basics/) and [SentinelSat](https://sentinelsat.readthedocs.io/en/stable/) APIs, and 1 [Processing Block](https://github.com/up42/simple-vegetation-indexes-block) to calculate vegetation indexes for Pléiades, SPOT 6/7 and Sentinel-2.
 
 | **⚠ Disclaimer: The custom blocks created are not official UP42 blocks. They were created for the purpose of providing an example but are not being supported by UP42 for any reason. |
 | --- |
