@@ -24,7 +24,7 @@ Your creation can be written in the coding language of your choice, but it is al
 
 For more information, please carefully review the list of links below:
 
-|                          Webpage                                                         ---                           |               Description                                       ---               |
+|                          Item                                     |               Description                                         |
 | :--------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------: |
 |                   [Block Manifest](https://docs.up42.com/processing-platform/custom-blocks/manifest)                   |         The JSON-based file format for describing metadata about blocks.          |
 |               [Block Capabilities](https://docs.up42.com/processing-platform/custom-blocks/capabilities)               |                  Specifying block input and output capabilities.                  |
